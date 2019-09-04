@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/message_item_receive">
+    <TextView
+        android:id="@+id/message_item_receive_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="time"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/user_icon_left"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="#ff0000"/>
+        <TextView
+            android:id="@+id/message_text_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/messege_bubble_gaitubao_left_84x78"
+            android:gravity="center"/>
+        <ImageView
+            android:id="@+id/message_image_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
